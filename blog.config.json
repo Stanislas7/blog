@@ -1,3 +1,4 @@
 {
-    "blogName": "Blog Name"
-}
+    "blogName": "Blog",
+    "defaultTheme": "system"
+  }

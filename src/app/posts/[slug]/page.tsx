@@ -18,7 +18,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
   const { content, data } = matter(fileContents)
 
   return (
-    <article className="prose lg:prose-xl pb-4">
+    <article className="prose lg:prose-xl dark:prose-invert prose-h1:text-text-light dark:prose-h1:text-text-dark prose-p:text-text-light dark:prose-p:text-text-dark">
       <h1>{data.title}</h1>
       <MDXRemote source={content} />
     </article>
